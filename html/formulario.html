@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datos del usuario</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css"/>
+</head>
+<body>
+    <h1>Registra tus datos</h1>
+    <h5>ingresa tu correo y se parte de grandes ofertas y descuentos en consumicion o peliculas $</h5>
+
+    <form autocomplete="off" action="" method="get"> <!--Agregar metodos y nombre sirve para el backen-->
+        
+        <label for="inombre" >Nombre</label><!--Se utiliza label para formulario, es solo el nombre-->
+        <input id="inombre" name="Nombre" placeholder="Ingrese su nombre" required minlength="3" maxlength="15"/> <!--placeholder sirve para ingresar un nombre guia dentro del cuadro-->
+        <!--El for indica para que inpunt se esta utilizando ese label-->
+            <br>
+        <label >Apellido</label>
+        <input type="text" name="Apellido" placeholder="Apellido" required minlength="3" maxlength="23"/><!--input crea cuadros para el formulario-->
+            <br>
+        <label >Email</label>
+        <input type="Email" name="Email" placeholder="Ingrese su Email" required/>
+        <!--Crear boton para enviar formularios se puede crear de 3 maneras-->
+       <!--Con link o con-->
+       <!--Ccon la etiqueta button-->
+        <!--Con le input-->
+            <br>
+        <input type="submit" value="ENVIAR"> <!--cual es la diferencia 
+            para el tipo submit al agregar el value o placeholder -->
+    </form>
+    <h1>Hacer validacion de datos pero con atributos en el input "TENER EN CUENTA EL TIPO", para colocar los atributos</h1>
+   
+</body>
+</html>
