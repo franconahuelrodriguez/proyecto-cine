@@ -1,0 +1,25 @@
+ *{ 
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 255, 255, 0.655);
+} 
+body {
+    background: rebeccapurple url(https://th.bing.com/th/id/OIP.IszmaZBryz9Av4HqcijAUgHaEK?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    width: 300;
+    height: 300px;
+}
+header{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    /* background: black;   */
+
+}
+/* id unico se lo nombra en el css con el (#) y se coloca un id en el elemento*/
+nav{
+
+}
+
+
+
